@@ -1,0 +1,36 @@
+@import 'remark-defaults.css';
+@import 'fonts.css';
+
+/* .title-slide overrides .inverse from remark-defaults */
+.title-slide {
+  background-color: #f6f7f8;
+  text-shadow: none;
+}
+
+/* hide title slide number */
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+.title-slide h1 {
+  color: #1e1e24;
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 2em;
+  margin-top: 2em;
+}
+
+.title-slide h2 {
+  color: #1e1e24;
+  font-size: 1.4em;
+  font-weight: 300;
+  line-height: 1.4em;
+  margin-top: -1em;
+}
+
+.title-slide h3 {
+  color: #1e1e24;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.4em;
+}
