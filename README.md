@@ -1,15 +1,3 @@
-<!--
-*** We're using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stars][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-# Start Your Lab Workshop
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
