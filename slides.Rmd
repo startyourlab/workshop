@@ -21,19 +21,30 @@ options(htmltools.dir.version = FALSE)
 
 class: title-slide
 
-<div align="left">
+<div align="center">
   <img src="assets/images/logo.png" alt="Logo" height="40">
 </div>
 
-# Best practices for modern social science
+<div class="header">
+  <h1 class="title">Best practices for modern social science</h1>
+  <h2 class="subtitle">Managing teams, projects, and code to facilitate digital collaboration, documentation, and open science</h2>
+</div>
 
-## Managing teams, projects, and code to facilitate digital collaboration, documentation, and open science
-
-<br>
-
-### Ari Dyckovsky & Peter Sokol-Hessner
-
-### University of Denver
+<div class="footer">
+  <div class="authors">
+    <div class="author">
+      <p class="name">Ari Dyckovsky<sup>1</sup></p>
+      <a class="twitter" href="https://twitter.com/adyckovsky">@adyckovsky</a>
+    </div>
+    <div class="author">
+      <p class="name">Peter Sokol-Hessner<sup>1</sup></p>
+      <a class="twitter" href="https://twitter.com/p1sh">@p1sh</a>
+    </div>
+    <div class="institutions">
+      <p class="name"><sup>1</sup>University of Denver</p>
+    </div>
+  </div>
+</div>
 
 ---
 class: center, middle

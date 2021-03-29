@@ -31,19 +31,30 @@
 
 class: title-slide
 
-&lt;div align="left"&gt;
+&lt;div align="center"&gt;
   &lt;img src="assets/images/logo.png" alt="Logo" height="40"&gt;
 &lt;/div&gt;
 
-# Best practices for modern social science
+&lt;div class="header"&gt;
+  &lt;h1 class="title"&gt;Best practices for modern social science&lt;/h1&gt;
+  &lt;h2 class="subtitle"&gt;Managing teams, projects, and code to facilitate digital collaboration, documentation, and open science&lt;/h2&gt;
+&lt;/div&gt;
 
-## Managing teams, projects, and code to facilitate digital collaboration, documentation, and open science
-
-&lt;br&gt;
-
-### Ari Dyckovsky &amp; Peter Sokol-Hessner
-
-### University of Denver
+&lt;div class="footer"&gt;
+  &lt;div class="authors"&gt;
+    &lt;div class="author"&gt;
+      &lt;p class="name"&gt;Ari Dyckovsky&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+      &lt;a class="twitter" href="https://twitter.com/adyckovsky"&gt;@adyckovsky&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="author"&gt;
+      &lt;p class="name"&gt;Peter Sokol-Hessner&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+      &lt;a class="twitter" href="https://twitter.com/p1sh"&gt;@p1sh&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="institutions"&gt;
+      &lt;p class="name"&gt;&lt;sup&gt;1&lt;/sup&gt;University of Denver&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 ---
 class: center, middle
@@ -224,9 +235,9 @@ coef(summary(fit))
 ```
 
 ```
-#               Estimate Std. Error   t value     Pr(&gt;|t|)
-# (Intercept) -17.579095  6.7584402 -2.601058 1.231882e-02
-# speed         3.932409  0.4155128  9.463990 1.489836e-12
+#                    Estimate     Std. Error        t value          Pr(&gt;|t|)
+# (Intercept) -17.57909489051 6.758440169379 -2.60105800302 1.23188161538e-02
+# speed         3.93240875912 0.415512776657  9.46398999030 1.48983649630e-12
 ```
 
 ```r
@@ -336,8 +347,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div id="htmlwidget-7d1b6a4383f818ca2fe7" style="width:100%;height:432px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-7d1b6a4383f818ca2fe7">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-99030048507f2154db75" style="width:100%;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-99030048507f2154db75">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -349,8 +360,8 @@ DT::datatable(
 )
 ```
 
-<div id="htmlwidget-89f49f3cc94b28e84635" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-89f49f3cc94b28e84635">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-c724ac94dd027bb32639" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c724ac94dd027bb32639">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
