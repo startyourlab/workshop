@@ -6,12 +6,13 @@
   background-image: url('../assets/images/title-slide-background.svg');
   background-size: contain;
   background-color: #F6F7F8;
-  background-position: 50% 55%;
+  background-position: 50% 60%;
   text-shadow: none;
 }
 
 .header {
   margin-top: 2em;
+  max-width: 70%;
 }
 
 .header .title {
@@ -27,7 +28,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  margin-top: 40%;
+  margin-top: 30%;
 }
 
 .footer .authors {

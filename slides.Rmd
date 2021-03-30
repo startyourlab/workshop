@@ -12,11 +12,36 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
     seal: false
 ---
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
+```
+
+```{r load-packages, message=FALSE, echo=FALSE}
+library(metathis)
+```
+
+```{r meta, echo=FALSE}
+# TODO: Replace SLIDES-NAME
+# TODO: Add twitter card image
+meta() %>%
+  meta_general(
+    description = "Slides for a Start Your Lab workshop",
+  ) %>% 
+  meta_name("github-repo" = "startyourlab/workshop") %>% 
+  meta_social(
+    title = "Slide title",
+    url = "https://workshops.startyourlab.com/SLIDES-NAME",
+    image = "https://workshops.startyourlab.com/SLIDES-NAME/assets/images/twitter-card.png",
+    image_alt = "",
+    og_type = "website",
+    og_author = "Start Your Lab",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@startyourlab"
+  )
 ```
 
 class: title-slide
