@@ -1,34 +1,12 @@
-@import 'remark-defaults.css';
-@import 'fonts.css';
-
-/* .title-slide overrides .inverse from remark-defaults */
-.title-slide {
-  background-image: url('../assets/images/title-slide-background.svg');
-  background-size: contain;
-  background-color: #F6F7F8;
-  background-position: 50% 60%;
-  text-shadow: none;
-}
-
+/* Custom title slide format */
 .header {
   margin-top: 2em;
-  max-width: 70%;
-}
-
-.header .title {
-  font-size: 2em;
-  font-weight: 300;
-}
-
-.header .subtitle {
-  font-size: 1.2em;
-  font-weight: 400;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
-  margin-top: 30%;
+  margin-top: 35%;
 }
 
 .footer .authors {
