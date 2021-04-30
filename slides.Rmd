@@ -7,7 +7,7 @@ date: "Last updated: `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["xaringan-themer.css", "styles/title-slide.css"]
+    css: ["xaringan-themer.css", "styles/custom.css"]
     nature:
       highlightStyle: github
       highlightLines: true
@@ -18,6 +18,9 @@ output:
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
+
+syl_icons <- icons::icon_set("./assets/icons")
+syl_icons$labyrinth
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
@@ -25,30 +28,36 @@ library(xaringanthemer)
 # Custom theme reference: https://pkg.garrickadenbuie.com/xaringanthemer/reference/style_xaringan.html
 style_xaringan(
   # fonts
-  header_font_google = google_font("Quicksand", "300"),
-  text_font_google   = google_font("Roboto", "300", "300i", "400", "400i"),
+  header_font_google = google_font("Nunito", "300", "400", "500"),
+  text_font_google   = google_font("Nunito", "300", "300i", "400", "400i", "500", "500i"),
   code_font_google   = google_font("Source Code Pro"),
   # global
   text_color = "#1E1E24",
   link_color = "#39627F",
   background_color = "#FFF",
+  inverse_background_color = "#4C82A9",
+  inverse_text_color = "#FFF",
+  inverse_header_color = "#FFF",
   # code_inline_background_color = "#ddd",
-  header_h1_font_size = "2em",
-  header_h2_font_size = "1.5em",
-  header_h3_font_size = "1.25em",
-  header_font_weight = "300",
-  base_font_size = "20px",
+  header_h1_font_size = "1.5em",
+  header_h2_font_size = "1.25em",
+  header_h3_font_size = "1.1em",
+  header_font_weight = "400",
+  base_font_size = "24px",
   # title slide
   title_slide_text_color = "#1E1E24",
   title_slide_background_image = "assets/images/title-slide-background.svg",
   title_slide_background_size	= "contain",
   title_slide_background_color = "#F6F7F8",
-  title_slide_background_position = "50% 60%"
+  title_slide_background_position = "50% 70%"
 )
 ```
 
 ```{r load-packages, message=FALSE, echo=FALSE}
 library(metathis)
+library(ggplot2)
+library(dplyr)
+library(icons)
 ```
 
 ```{r meta, echo=FALSE}
@@ -78,60 +87,409 @@ class: title-slide
 </div>
 
 <div class="header">
-  <h1 class="title">Best practices for modern social science</h1>
-  <h2 class="subtitle">Managing teams, projects, and code to facilitate digital collaboration, documentation, and open science</h2>
+  <h1 class="title">Research practices for modern social science</h1>
+  <h2 class="subtitle">Managing teams, projects, and code <br/> to facilitate collaboration and open science</h2>
 </div>
 
 <div class="footer">
   <div class="authors">
     <div class="author">
-      <p class="name">Ari Dyckovsky<sup>1</sup></p>
+      <p class="name">Ari Dyckovsky</p>
       <a class="twitter" href="https://twitter.com/adyckovsky">@adyckovsky</a>
-    </div>
-    <div class="author">
-      <p class="name">Peter Sokol-Hessner<sup>1</sup></p>
-      <a class="twitter" href="https://twitter.com/p1sh">@p1sh</a>
-    </div>
-    <div class="institutions">
-      <p class="name"><sup>1</sup>University of Denver</p>
     </div>
   </div>
 </div>
 
 ---
-class: center, middle
+class: left
 
-# xaringan
+# Today's Agenda
 
-### /ʃaː.'riŋ.ɡan/
-
----
-class: center, middle
-
-# Get Started
+1. What does modern social science look like?
+2. Why are we here today?
+3. How can we do better?
+4. Which tools should we use to accomplish better research practices?
 
 ---
+class: center, middle, inverse
 
-# Hello World
+# What does modern social science look like?
 
-Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
+---
+class: left
 
-```{r eval=FALSE, tidy=FALSE}
-remotes::install_github("yihui/xaringan")
+<div style="position: absolute; top: 20px; right: 20px; text-align: right;">
+  `r icon_style(syl_icons$unlock, height = "2em")` 
+</div>
+
+# Open science is increasingly emphasized
+
+- Collaboration between teams and fields
+- Reusing others’ materials and reproducing findings
+- Public accessibility
+- Many powerful drivers
+  - Journals, funders, individuals, scientific societies
+
+---
+class: left
+
+<div style="position: absolute; top: 20px; right: 20px; text-align: right;">
+  `r icon_style(syl_icons$maze, height = "2em")` 
+</div>
+
+# Complex problems need computing resources
+
+- Experiments are more powerful, creative, and complex
+- Analyses increasingly rely on computationally-intensive approaches
+
+---
+class: left
+
+<div style="position: absolute; top: 20px; right: 20px; text-align: right;">
+  `r icon_style(syl_icons$network, height = "2em")` 
+</div>
+
+# Global networks are more common
+
+- Academics are increasingly working with people outside their lab, department, university, or even academia itself.
+- If people leave academia for the private sector, <i>wherever they go</i>, the best possible practices are used and expected.
+  - Facilitating better research practices is good for academics, increasingly common in academia, and crucial outside of academia
+
+---
+class: center
+
+# Modern social science looks like...
+
+<div style="margin-top: 10%; display: flex; flex-direction: row; height: 70%; justify-content: space-evenly; align-items: center;">
+  <div style="display: flex; flex: 1; flex-direction: column; justify-content: space-between; align-items: stretch; height: 100%; border: 3px solid #383843; padding: 1em 0;">
+    <div>
+      `r icon_style(syl_icons$unlock, height = "2em")`
+      <p class="icon-label">Open Science</p>
+    </div>
+    <div>
+      `r icon_style(syl_icons$maze, height = "2em")`
+      <p class="icon-label">Complex Problems</p>
+    </div>
+    <div>
+      `r icon_style(syl_icons$network, height = "2em")`
+      <p class="icon-label">Global Networks</p>
+    </div>
+  </div>
+  <div style="flex: 0; opacity: 0">
+    `r icon_style(syl_icons$right_arrow, scale = 2, file = "#383843")`
+  </div>
+  <div style="display: flex; flex: 1; flex-direction: column">
+    <div style="opacity: 0;">
+      `r icon_style(syl_icons$group, height = "6em")`
+      <p class="icon-label">Team Science</p>
+    </div>
+  </div>
+</div>
+---
+class: center
+
+# Modern social science looks like...
+
+<div style="margin-top: 10%; display: flex; flex-direction: row; height: 70%; justify-content: space-evenly; align-items: center;">
+  <div style="display: flex; flex: 1; flex-direction: column; justify-content: space-between; align-items: stretch; height: 100%; border: 3px solid #383843; padding: 1em 0;">
+    <div>
+      `r icon_style(syl_icons$unlock, height = "2em")`
+      <p class="icon-label">Open Science</p>
+    </div>
+    <div>
+      `r icon_style(syl_icons$maze, height = "2em")`
+      <p class="icon-label">Complex Problems</p>
+    </div>
+    <div>
+      `r icon_style(syl_icons$network, height = "2em")`
+      <p class="icon-label">Global Networks</p>
+    </div>
+  </div>
+  <div style="flex: 0; opacity: 1">
+    `r icon_style(syl_icons$right_arrow, scale = 2, file = "#383843")`
+  </div>
+  <div style="display: flex; flex: 1; flex-direction: column">
+    <div style="opacity: 1;">
+      `r icon_style(syl_icons$group, height = "6em")`
+      <p class="icon-label">Team Science</p>
+    </div>
+  </div>
+</div>
+---
+class: center, middle, inverse
+
+# Why are we here today?
+
+---
+class: left
+
+# We can't keep track of different versions
+
+_How often do you store and spend time searching for file versions?_
+
+```{r, echo=FALSE, fig.retina=2, out.width='80%', fig.width=8, fig.height=6, fig.align='center'}
+data <- data.frame(
+  group = c(1, 2, 3, 4, 5),
+  value = c(0, 3, 0, 2, 3)
+) 
+
+ggplot(data, aes(x=group, y=value)) +
+  geom_bar(stat="identity", width=0.7, fill="#4C82A9") +
+  theme_classic() +
+  theme(
+    text = element_text(size=24, family = "Nunito"), 
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  scale_x_discrete(
+    limits = c("Not at all", "", "Sometimes", "","All the time")
+  )
+
 ```
 
 ---
+class: left
 
-class: center
+# We can't find files confidently
 
-# Help
+_How organized do you feel your project files are?_
 
-Press `h` or `?` to see the possible ninjutsu you can use in remark.js.
+```{r, echo=FALSE, fig.retina=2, out.width='80%', fig.width=8, fig.height=6, fig.align='center'}
+data <- data.frame(
+  group = c(1, 2, 3, 4, 5),
+  value = c(0, 2, 3, 3, 0)
+) 
+
+ggplot(data, aes(x=group, y=value)) +
+  geom_bar(stat="identity", width=0.7, fill="#4C82A9") +
+  theme_classic() +
+  theme(
+    text = element_text(size=24, family = "Nunito"), 
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  scale_x_discrete(
+    limits = c("Not at all", "", "Neutral", "","Perfectly")
+  )
+
+```
 
 ---
+class: left
 
+# We can't share without extra effort
+
+_Are you able to share analysis files with collaborators with one or two clicks without doing any editing to the file?_
+
+```{r, echo=FALSE, fig.retina=2, out.width='50%', fig.align='center'}
+data <- data.frame(
+  group = c("Yes", "No"),
+  value = c(3, 5)
+) 
+
+data <- data %>% 
+  arrange(desc(group)) %>%
+  mutate(prop = value / sum(data$value) *100) %>%
+  mutate(ypos = cumsum(prop)- 0.5*prop )
+
+ggplot(data, aes(x="", y=prop, fill=group)) +
+  geom_bar(stat="identity", width=1, color="white") +
+  coord_polar("y", start=0) +
+  theme_void() +
+  theme(legend.position="none") +
+  geom_text(aes(y = ypos, label = paste0(group, "\n", prop, "%")), color = "white", size=6) +
+  scale_fill_manual(values = c("#DF8768", "#4C82A9"))
+```
+
+---
+class: left
+
+# Continuing current research practices has costs
+
+1. They are expensive in both time and effort
+
+--
+
+  - This is **hours of your time and others’ time, wasted**.
+  
+--
+
+2. They lead to risk of serious errors
+
+--
+
+  - This is **mistakes in publications and unnecessary confusion**.
+  
+--
+
+3. They make collaboration harder than it needs to be
+
+--
+
+  - This is **lost opportunities and lost innovation**.
+
+---
+class: center, middle
+
+# We can do better by using _best practices_.
+
+---
+class: center, middle, inverse
+
+# What are best practices and <br/> why are they important?
+
+---
+class: left
+
+# Best practices are...
+
+- methods
+- strategies
+- techniques
+- procedures
+- etc.
+
+## ...that are generally agreed upon as the <br/> **most effective** or **most prudent** way to work.
+
+--
+
+## Best practices are vital for _successful_ collaboration with your teams, projects, and code.
+
+---
+class: left
+
+# Who agrees upon these "best" practices?
+
+--
+
+## The private sector
+
+...especially those in technology and software development communities who carry out their entire professional lives in this setting with tremendous incentives & desire to improve, streamline, and facilitate digital work.
+
+---
+class: left
+
+# Who agrees upon these "best" practices?
+
+--
+
+.pull-left[
+
+## Other academics
+
+.small-font[
+
+Ram, 2013, Git can facilitate greater reproducibility and increased transparency in science, _Source Code for Biology and Medicine_
+
+Wilson et al, 2014, Best practices for scientific computing, _PLoS Biology_
+
+Gorgolewski & Poldrack, 2016, A practical guide for improving transparency and reproducibility in neuroimaging research, _PLoS Biology_
+
+**Lowndes et al, 2017, Our path to better science in less time using open data science tools, _Nature Ecology & Evolution_**
+
+Wilson et al, 2017, Good enough practices in scientific computing, _PLoS Computational Biology_
+
+Hesse, 2018, Can psychology walk the walk of open science?, _American Psychologist_
+
+]
+
+]
+
+--
+
+.pull-right[
+<div style="margin-top: 40%;" />
+<img src="./assets/images/lowndes-graph-2017.jpg" />
+]
+
+---
+class: left
+
+# What is the value of adopting best practices?
+
+--
+
+## Best practices are consistent with **your scientific values**
+
+--
+
+.pull-left[
+
+- Better science
+  - More reusability
+  - More reproducibility
+  - Fewer errors
+- Transparency
+- Efficiency
+
+]
+
+--
+
+.pull-right[
+
+- More attractive collaborator & resource
+- Easy onboarding of new lab members
+- Supports young scholars
+- Intentional organization of digital lab materials
+
+]
+
+--
+
+## Future-proofing
+
+This is and will be the standard for years to come
+
+---
+class: center, middle, inverse
+
+# How do we get our lab started <br/> with best practices?
+
+---
+class: left
+
+# Tools help us accomplish best practices
+
+<div style="display: flex; flex-direction: column; height: 40%; margin-top: 10%;">
+
+<div style="display: inherit; justify-content: space-around;">
+  <div style="display: inherit; flex-direction: column; align-items: center;">
+    <img src="./assets/images/slack-logo.svg" height="60" />
+    <h3>Slack</h3>
+  </div>
+  
+  <div style="display: inherit; flex-direction: column; align-items: center;">
+    <img src="./assets/images/google-calendar-logo.svg" height="60" />
+    <h3>Google Calendar</h3>
+  </div>
+  
+  <div style="display: inherit; flex-direction: column; align-items: center;">
+    <img src="./assets/images/github-logo.svg" height="60" />
+    <h3>GitHub</h3>
+  </div>
+  
+  <div style="display: inherit; flex-direction: column; align-items: center;">
+    <img src="./assets/images/zotero-logo.png" height="60" />
+    <h3>Zotero</h3>
+  </div>
+</div>
+
+</div>
+
+--
+
+<div align="center">
+
+<img src="./assets/images/logo.png" height="60" />
+
+</div>
+
+---
 class: center, middle
 
 # Thank you!
+
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

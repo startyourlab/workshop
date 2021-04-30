@@ -1,12 +1,12 @@
 /* Custom title slide format */
 .header {
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
-  margin-top: 35%;
+  margin-top: 40%;
 }
 
 .footer .authors {
@@ -56,6 +56,14 @@
 }
 
 /* hide title slide number */
-.title-slide .remark-slide-number {
+.remark-slide-number {
   display: none;
+}
+
+.icon-label {
+  margin: 0.25em auto;
+}
+
+.small-font {
+  font-size: 70%;
 }

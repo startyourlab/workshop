@@ -18,29 +18,29 @@
  *  Version: 0.3.3
  *
  * ------------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Quicksand:300&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,500,500i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300,400,500&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap);
 
 
 :root {
   /* Fonts */
-  --text-font-family: Roboto;
+  --text-font-family: Nunito;
   --text-font-is-google: 1;
   --text-font-family-fallback: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial;
   --text-font-base: sans-serif;
-  --header-font-family: Quicksand;
+  --header-font-family: Nunito;
   --header-font-is-google: 1;
   --header-font-family-fallback: Georgia, serif;
   --code-font-family: 'Source Code Pro';
   --code-font-is-google: 1;
-  --base-font-size: 20px;
+  --base-font-size: 24px;
   --text-font-size: 1rem;
   --code-font-size: 0.9rem;
   --code-inline-font-size: 1em;
-  --header-h1-font-size: 2em;
-  --header-h2-font-size: 1.5em;
-  --header-h3-font-size: 1.25em;
+  --header-h1-font-size: 1.5em;
+  --header-h2-font-size: 1.25em;
+  --header-h3-font-size: 1.1em;
 
   /* Colors */
   --text-color: #1E1E24;
@@ -48,9 +48,9 @@
   --background-color: #FFF;
   --link-color: #39627F;
   --code-highlight-color: rgba(255,255,0,0.5);
-  --inverse-text-color: #d6d6d6;
-  --inverse-background-color: #272822;
-  --inverse-header-color: #f3f3f3;
+  --inverse-text-color: #FFF;
+  --inverse-background-color: #4C82A9;
+  --inverse-header-color: #FFF;
   --inverse-link-color: #39627F;
   --title-slide-background-color: #F6F7F8;
   --title-slide-text-color: #1E1E24;
@@ -69,7 +69,7 @@ body {
 }
 h1, h2, h3 {
   font-family: var(--header-font-family), var(--header-font-family-fallback);
-  font-weight: 300;
+  font-weight: 400;
   color: var(--header-color);
 }
 .remark-slide-content {
@@ -99,7 +99,7 @@ h1, h2, h3 {
   color: #000;
 }
 .remark-slide-number {
-  color: #272822;
+  color: #4C82A9;
   opacity: 1;
   font-size: 0.9em;
 }
@@ -134,7 +134,7 @@ a, a > code {
   background-color: var(--title-slide-background-color);
   background-image: url("assets/images/title-slide-background.svg");
   background-size: contain;
-  background-position: 50% 60%;
+  background-position: 50% 70%;
 }
 .title-slide .remark-slide-number {
   display: none;
