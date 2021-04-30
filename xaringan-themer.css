@@ -18,8 +18,8 @@
  *  Version: 0.3.3
  *
  * ------------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,500,500i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Nunito:300,400,500&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,500,500i,600&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300,400,500,600,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap);
 
 
@@ -45,7 +45,7 @@
   /* Colors */
   --text-color: #1E1E24;
   --header-color: #000;
-  --background-color: #FFF;
+  --background-color: #F6F7F8;
   --link-color: #39627F;
   --code-highlight-color: rgba(255,255,0,0.5);
   --inverse-text-color: #FFF;
@@ -55,7 +55,10 @@
   --title-slide-background-color: #F6F7F8;
   --title-slide-text-color: #1E1E24;
   --header-background-color: #000;
-  --header-background-text-color: #FFF;
+  --header-background-text-color: #F6F7F8;
+  --primary: #4C82A9;
+  --orange: #DA7652;
+  --green: #65C367;
 }
 
 html {
@@ -236,4 +239,22 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   }
 }
 
+.primary {
+  color: var(--primary);
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+.orange {
+  color: var(--orange);
+}
+.bg-orange {
+  background-color: var(--orange);
+}
+.green {
+  color: var(--green);
+}
+.bg-green {
+  background-color: var(--green);
+}
 

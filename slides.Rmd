@@ -1,8 +1,8 @@
 ---
-title: "Best practices for modern social science"
-subtitle: "Managing teams, projects, and code to facilitate digital collaboration, documentation, and open science"
-author: "Ari Dyckovsky & Peter Sokol-Hessner"
-institute: "University of Denver"
+title: "Research practices for modern social science"
+subtitle: "Managing teams, projects, and code to facilitate collaboration and open science"
+author: "Ari Dyckovsky"
+institute: "Princeton University"
 date: "Last updated: `r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -20,7 +20,7 @@ output:
 options(htmltools.dir.version = FALSE)
 
 syl_icons <- icons::icon_set("./assets/icons")
-syl_icons$labyrinth
+syl_images <- icons::icon_set("./assets/images")
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
@@ -28,13 +28,13 @@ library(xaringanthemer)
 # Custom theme reference: https://pkg.garrickadenbuie.com/xaringanthemer/reference/style_xaringan.html
 style_xaringan(
   # fonts
-  header_font_google = google_font("Nunito", "300", "400", "500"),
-  text_font_google   = google_font("Nunito", "300", "300i", "400", "400i", "500", "500i"),
+  header_font_google = google_font("Nunito", "300", "400", "500", "600", "700"),
+  text_font_google   = google_font("Nunito", "300", "300i", "400", "400i", "500", "500i", "600"),
   code_font_google   = google_font("Source Code Pro"),
   # global
   text_color = "#1E1E24",
   link_color = "#39627F",
-  background_color = "#FFF",
+  background_color = "#F6F7F8",
   inverse_background_color = "#4C82A9",
   inverse_text_color = "#FFF",
   inverse_header_color = "#FFF",
@@ -49,7 +49,12 @@ style_xaringan(
   title_slide_background_image = "assets/images/title-slide-background.svg",
   title_slide_background_size	= "contain",
   title_slide_background_color = "#F6F7F8",
-  title_slide_background_position = "50% 70%"
+  title_slide_background_position = "50% 70%",
+  colors = c(
+    primary = "#4C82A9",
+    orange = "#DA7652",
+    green = "#65C367"
+  )
 )
 ```
 
@@ -107,8 +112,8 @@ class: left
 
 1. What does modern social science look like?
 2. Why are we here today?
-3. How can we do better?
-4. Which tools should we use to accomplish better research practices?
+3. What are best practices and why are they important?
+4. How do we get our lab started with best practices for teams?
 
 ---
 class: center, middle, inverse
@@ -161,7 +166,7 @@ class: center
 # Modern social science looks like...
 
 <div style="margin-top: 10%; display: flex; flex-direction: row; height: 70%; justify-content: space-evenly; align-items: center;">
-  <div style="display: flex; flex: 1; flex-direction: column; justify-content: space-between; align-items: stretch; height: 100%; border: 3px solid #383843; padding: 1em 0;">
+  <div style="display: flex; flex: 1; flex-direction: column; justify-content: space-between; align-items: stretch; height: 100%; border: 0.1em solid #93D595; border-radius: 0.5em; background-color: #EAF7EA; padding: 1em 0;">
     <div>
       `r icon_style(syl_icons$unlock, height = "2em")`
       <p class="icon-label">Open Science</p>
@@ -191,7 +196,7 @@ class: center
 # Modern social science looks like...
 
 <div style="margin-top: 10%; display: flex; flex-direction: row; height: 70%; justify-content: space-evenly; align-items: center;">
-  <div style="display: flex; flex: 1; flex-direction: column; justify-content: space-between; align-items: stretch; height: 100%; border: 3px solid #383843; padding: 1em 0;">
+  <div style="display: flex; flex: 1; flex-direction: column; justify-content: space-between; align-items: stretch; height: 100%; border: 0.1em solid #93D595; border-radius: 0.5em; background-color: #EAF7EA; padding: 1em 0;">
     <div>
       `r icon_style(syl_icons$unlock, height = "2em")`
       <p class="icon-label">Open Science</p>
@@ -206,7 +211,7 @@ class: center
     </div>
   </div>
   <div style="flex: 0; opacity: 1">
-    `r icon_style(syl_icons$right_arrow, scale = 2, file = "#383843")`
+    `r icon_style(syl_icons$right_arrow, scale = 2, color = "#93D595")`
   </div>
   <div style="display: flex; flex: 1; flex-direction: column">
     <div style="opacity: 1;">
@@ -230,7 +235,7 @@ _How often do you store and spend time searching for file versions?_
 ```{r, echo=FALSE, fig.retina=2, out.width='80%', fig.width=8, fig.height=6, fig.align='center'}
 data <- data.frame(
   group = c(1, 2, 3, 4, 5),
-  value = c(0, 3, 0, 2, 3)
+  value = c(0, 3, 1, 2, 3)
 ) 
 
 ggplot(data, aes(x=group, y=value)) +
@@ -243,7 +248,8 @@ ggplot(data, aes(x=group, y=value)) +
   ) +
   scale_x_discrete(
     limits = c("Not at all", "", "Sometimes", "","All the time")
-  )
+  ) +
+  theme_xaringan()
 
 ```
 
@@ -257,7 +263,7 @@ _How organized do you feel your project files are?_
 ```{r, echo=FALSE, fig.retina=2, out.width='80%', fig.width=8, fig.height=6, fig.align='center'}
 data <- data.frame(
   group = c(1, 2, 3, 4, 5),
-  value = c(0, 2, 3, 3, 0)
+  value = c(0, 2, 4, 3, 0)
 ) 
 
 ggplot(data, aes(x=group, y=value)) +
@@ -270,7 +276,8 @@ ggplot(data, aes(x=group, y=value)) +
   ) +
   scale_x_discrete(
     limits = c("Not at all", "", "Neutral", "","Perfectly")
-  )
+  ) +
+  theme_xaringan()
 
 ```
 
@@ -281,10 +288,10 @@ class: left
 
 _Are you able to share analysis files with collaborators with one or two clicks without doing any editing to the file?_
 
-```{r, echo=FALSE, fig.retina=2, out.width='50%', fig.align='center'}
+```{r, echo=FALSE, fig.retina=2, out.width='60%', fig.align='center'}
 data <- data.frame(
   group = c("Yes", "No"),
-  value = c(3, 5)
+  value = c(4, 5)
 ) 
 
 data <- data %>% 
@@ -295,10 +302,14 @@ data <- data %>%
 ggplot(data, aes(x="", y=prop, fill=group)) +
   geom_bar(stat="identity", width=1, color="white") +
   coord_polar("y", start=0) +
-  theme_void() +
-  theme(legend.position="none") +
-  geom_text(aes(y = ypos, label = paste0(group, "\n", prop, "%")), color = "white", size=6) +
-  scale_fill_manual(values = c("#DF8768", "#4C82A9"))
+  geom_text(aes(y = ypos, label = paste0(group, "\n", round(prop), "%")), color = "white", size=8) +
+  scale_fill_manual(values = c("#DF8768", "#4C82A9")) +
+  theme_xaringan() +
+  theme(
+    legend.position="none",
+    axis.text = element_blank(),
+    axis.title = element_blank()
+  )
 ```
 
 ---
@@ -310,7 +321,7 @@ class: left
 
 --
 
-  - This is **hours of your time and others’ time, wasted**.
+  - This is **.orange[hours of your time and others’ time, wasted]**.
   
 --
 
@@ -318,7 +329,7 @@ class: left
 
 --
 
-  - This is **mistakes in publications and unnecessary confusion**.
+  - This is **.orange[mistakes in publications and unnecessary confusion]**.
   
 --
 
@@ -326,12 +337,12 @@ class: left
 
 --
 
-  - This is **lost opportunities and lost innovation**.
+  - This is **.orange[lost opportunities and lost innovation]**.
 
 ---
 class: center, middle
 
-# We can do better by using _best practices_.
+# .primary[**We can do better by using _best practices_**].
 
 ---
 class: center, middle, inverse
@@ -353,7 +364,7 @@ class: left
 
 --
 
-## Best practices are vital for _successful_ collaboration with your teams, projects, and code.
+## .primary[Best practices are vital for _successful_ collaboration with your teams, projects, and code.]
 
 ---
 class: left
@@ -364,18 +375,16 @@ class: left
 
 ## The private sector
 
-...especially those in technology and software development communities who carry out their entire professional lives in this setting with tremendous incentives & desire to improve, streamline, and facilitate digital work.
+...especially those in .primary[software and technology] who carry out their entire professional lives in this setting with tremendous incentives & desire to improve, streamline, and facilitate digital work.
 
 ---
 class: left
 
 # Who agrees upon these "best" practices?
 
---
+## Other academics
 
 .pull-left[
-
-## Other academics
 
 .small-font[
 
@@ -385,7 +394,7 @@ Wilson et al, 2014, Best practices for scientific computing, _PLoS Biology_
 
 Gorgolewski & Poldrack, 2016, A practical guide for improving transparency and reproducibility in neuroimaging research, _PLoS Biology_
 
-**Lowndes et al, 2017, Our path to better science in less time using open data science tools, _Nature Ecology & Evolution_**
+**.green[Lowndes et al, 2017, Our path to better science in less time using open data science tools, _Nature Ecology & Evolution_]**
 
 Wilson et al, 2017, Good enough practices in scientific computing, _PLoS Computational Biology_
 
@@ -398,7 +407,7 @@ Hesse, 2018, Can psychology walk the walk of open science?, _American Psychologi
 --
 
 .pull-right[
-<div style="margin-top: 40%;" />
+<div style="margin-top: 3em; padding: 1em; background-color: white; border: 0.1em solid #616165; border-radius: 0.5em;" />
 <img src="./assets/images/lowndes-graph-2017.jpg" />
 ]
 
@@ -409,7 +418,7 @@ class: left
 
 --
 
-## Best practices are consistent with **your scientific values**
+## .primary[Best practices are consistent with **your scientific values**]
 
 --
 
@@ -437,41 +446,103 @@ class: left
 
 --
 
-## Future-proofing
-
-This is and will be the standard for years to come
+<div align="center" style="padding: 1em; margin-top: 2em; border: 0.1em solid #E29377; border-radius: 0.5em; background-color: #F9EAE4;">
+  <h2>Future-proofing</h2>
+  <h3>This is and will be the standard for years to come</h3>
+</div>
 
 ---
 class: center, middle, inverse
 
-# How do we get our lab started <br/> with best practices?
+# How do we get our lab started <br/> with best practices for teams?
+
+---
+class: center, middle
+
+# **.primary[It starts with the best tools for teams]**
 
 ---
 class: left
 
+<div style="position: absolute; top: 20px; right: 20px; text-align: right;">
+  `r icon_style(syl_images$slack_logo, height = "2em")` 
+</div>
+
+# Start **communicating** with Slack
+
+- As of 2019, Slack had 10+ million daily active users, and 87% of users state that Slack improves their entire work process
+
+--
+
+## Why use Slack?
+
+- Can be asynchronous, can be synchronous
+- Designed for teams with multiple people coordinating unevenly across multiple projects in shifting ways over time
+- Can be 1:1 private, shared within a small group, or shared with everyone, all within the same platform
+- Stores your communication and makes it easy to find later
+
+---
+class: left
+
+<div style="position: absolute; top: 20px; right: 20px; text-align: right;">
+  `r icon_style(syl_images$google_calendar_logo, height = "2em")` 
+</div>
+
+# Start **scheduling** with Google Calendar
+
+- As of 2018, at least 500 million people use Google Calendar
+
+--
+
+## Why use Google Calendar?
+
+- Designed for teams with multiple projects and meeting needs
+- Both public and private calendar events, so we can schedule weekly lab meetings and one-on-one meetings
+- It is more accessible for external collaborators than Outlook
+
+---
+class: left
+
+<div style="position: absolute; top: 20px; right: 20px; text-align: right;">
+  `r icon_style(syl_images$github_logo, height = "2em")` 
+</div>
+
+# Start **documenting** with GitHub
+
+- As of 2021, GitHub had 69+ million accounts from across the whole world and 200+ million repositories
+
+--
+
+## Why use GitHub?
+
+- Provides a shared interface for all digital materials in the cloud
+- Relates ideas and conversation directly to code
+- Tracks informative, detailed changes line-by-line, file-by-file, folder-by-folder
+- Designed explicitly for teams who write code of _any_ kind
+- Resolves conflicts between different peoples’ materials
+- Facilitates discussion and planning about those digital materials
+
+---
+class: center
+
 # Tools help us accomplish best practices
 
-<div style="display: flex; flex-direction: column; height: 40%; margin-top: 10%;">
+<div style="display: flex; flex-direction: column; justify-content: space-evenly; height: 9em; margin-top: 2em; margin-bottom: 2em; padding: 1em; background-color: #E8EFF4; border: 0.1em solid #5D8EB1; border-radius: 0.5em;">
 
-<div style="display: inherit; justify-content: space-around;">
+<div style="display: flex; align-items: center; justify-content: space-evenly; width: 100%; margin-top: 1em;">
   <div style="display: inherit; flex-direction: column; align-items: center;">
-    <img src="./assets/images/slack-logo.svg" height="60" />
+    <img src="./assets/images/slack_logo.svg" height="60" />
     <h3>Slack</h3>
   </div>
   
   <div style="display: inherit; flex-direction: column; align-items: center;">
-    <img src="./assets/images/google-calendar-logo.svg" height="60" />
+    <img src="./assets/images/google_calendar_logo.svg" height="60" />
     <h3>Google Calendar</h3>
   </div>
   
   <div style="display: inherit; flex-direction: column; align-items: center;">
-    <img src="./assets/images/github-logo.svg" height="60" />
+    <img src="./assets/images/github_logo.svg" height="60" />
     <h3>GitHub</h3>
-  </div>
-  
-  <div style="display: inherit; flex-direction: column; align-items: center;">
-    <img src="./assets/images/zotero-logo.png" height="60" />
-    <h3>Zotero</h3>
   </div>
 </div>
 
@@ -479,14 +550,33 @@ class: left
 
 --
 
-<div align="center">
-
-<img src="./assets/images/logo.png" height="60" />
-
-</div>
+## **How do we leverage these tools as a team?**
 
 ---
 class: center, middle
+
+<div align="center">
+  <img src="assets/images/logo.svg" alt="Logo" height="120">
+</div>
+
+# [www.startyourlab.com](https://www.startyourlab.com/)
+
+---
+class: left
+
+# Acknowledgments
+
+## Active team
+
+- Peter Sokol-Hessner, University of Denver
+
+## Industry advisors
+
+- Austin Chustz, Fellow
+- Ayush Sood, Facebook
+
+---
+class: left
 
 # Thank you!
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="608px" height="130px" viewBox="0 0 608 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="605px" height="129px" viewBox="0 0 605 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Group 2</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-160.000000, -807.000000)" fill="#1E1E24">
-            <g id="Group-2" transform="translate(160.000000, 807.567566)">
-                <rect id="Rectangle" x="0" y="58.4324341" width="600" height="12" rx="4"></rect>
-                <rect id="Rectangle" transform="translate(571.342773, 37.000000) rotate(-315.000000) translate(-571.342773, -37.000000) " x="526.342773" y="31" width="90" height="12" rx="4"></rect>
-                <rect id="Rectangle" transform="translate(571.342773, 92.000000) scale(1, -1) rotate(-315.000000) translate(-571.342773, -92.000000) " x="526.342773" y="86" width="90" height="12" rx="4"></rect>
+        <g id="Artboard" transform="translate(-161.000000, -804.000000)" fill="#88D18A">
+            <g id="Group-2" transform="translate(161.000000, 804.567566)">
+                <rect id="Rectangle" x="0" y="60.9324341" width="600" height="6"></rect>
+                <rect id="Rectangle" transform="translate(570.342773, 34.000000) rotate(-315.000000) translate(-570.342773, -34.000000) " x="525.342773" y="31" width="90" height="6" rx="3"></rect>
+                <rect id="Rectangle" transform="translate(570.342773, 94.000000) scale(1, -1) rotate(-315.000000) translate(-570.342773, -94.000000) " x="525.342773" y="91" width="90" height="6" rx="3"></rect>
             </g>
         </g>
     </g>
