@@ -469,7 +469,7 @@ class: left
 
 # Start **communicating** with Slack
 
-- As of 2019, Slack had 10+ million daily active users, and 87% of users state that Slack improves their entire work process
+- As of 2019, Slack had .primary[**10+ million daily active users**], and 87% of users state that Slack improves their entire work process
 
 --
 
@@ -479,6 +479,7 @@ class: left
 - Designed for teams with multiple people coordinating unevenly across multiple projects in shifting ways over time
 - Can be 1:1 private, shared within a small group, or shared with everyone, all within the same platform
 - Stores your communication and makes it easy to find later
+- Connects with nearly every other modern tool for teams
 
 ---
 class: left
@@ -489,14 +490,14 @@ class: left
 
 # Start **scheduling** with Google Calendar
 
-- As of 2018, at least 500 million people use Google Calendar
+- As of 2018, at least .primary[**500 million people**] use Google Calendar
 
 --
 
 ## Why use Google Calendar?
 
-- Designed for teams with multiple projects and meeting needs
-- Both public and private calendar events, so we can schedule weekly lab meetings and one-on-one meetings
+- Designed for teams with multiple projects and various meeting needs
+- Both public and private calendar events to schedule weekly lab meetings and one-on-one meetings
 - It is more accessible for external collaborators than Outlook
 
 ---
@@ -506,9 +507,9 @@ class: left
   `r icon_style(syl_images$github_logo, height = "2em")` 
 </div>
 
-# Start **documenting** with GitHub
+# Start **developing** with GitHub
 
-- As of 2021, GitHub had 69+ million accounts from across the whole world and 200+ million repositories
+- As of 2021, GitHub had .primary[**69+ million accounts**] from across the whole world and 200+ million repositories
 
 --
 
