@@ -374,7 +374,7 @@ class: left
 
 ## The private sector
 
-...especially those in .primary[software and technology] who carry out their entire professional lives in this setting with tremendous incentives & desire to improve, streamline, and facilitate digital work.
+...especially those in .primary[**software and technology**] who carry out their entire professional lives in this setting with tremendous incentives & desire to improve, streamline, and facilitate digital work.
 
 ---
 class: left
