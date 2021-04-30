@@ -19,7 +19,7 @@
  *
  * ------------------------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,500,500i,600&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Nunito:300,400,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300,400,500,600,700,400i,500i,600i,700i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap);
 
 
@@ -137,7 +137,7 @@ a, a > code {
   background-color: var(--title-slide-background-color);
   background-image: url("assets/images/title-slide-background.svg");
   background-size: contain;
-  background-position: 50% 70%;
+  background-position: 50% 75%;
 }
 .title-slide .remark-slide-number {
   display: none;

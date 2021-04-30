@@ -3,10 +3,14 @@
   margin-top: 3em;
 }
 
+.header .title {
+  font-size: 2em;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
-  margin-top: 40%;
+  margin-top: 42%;
 }
 
 .footer .authors {
