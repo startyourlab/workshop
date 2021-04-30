@@ -362,7 +362,7 @@ class: left
 --
 
 <div align="center" style="padding: 1em; margin-top: 2em; border: 0.1em solid #5D8EB1; border-radius: 0.5em; background-color: #E8EFF4;">
-  <h2>Best practices are vital for successful collaboration with your team, projects, and code.</h2>
+  <h2>Best practices are vital to successful collaboration with your team, projects, and code.</h2>
 </div>
 
 ---
