@@ -436,8 +436,8 @@ class: left
 
 .pull-right[
 
-- More attractive collaborator & resource
-- Easy onboarding of new lab members
+- More attractive collaborator
+- Fast onboarding of new lab members
 - Supports young scholars
 - Intentional organization of digital lab materials
 
