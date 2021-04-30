@@ -1,5 +1,5 @@
 ---
-title: "Research practices for modern social science"
+title: "Best practices for modern social science"
 subtitle: "Managing teams, projects, and code to facilitate collaboration and open science"
 author: "Ari Dyckovsky"
 institute: "Princeton University"
@@ -66,18 +66,16 @@ library(icons)
 ```
 
 ```{r meta, echo=FALSE}
-# TODO: Replace SLIDES-NAME
-# TODO: Add twitter card image
 meta() %>%
   meta_general(
-    description = "Slides for a Start Your Lab workshop",
+    description = "Slides for a presentation to the Coman Lab on best practices for modern social science",
   ) %>% 
   meta_name("github-repo" = "startyourlab/workshop") %>% 
   meta_social(
-    title = "Slide title",
-    url = "https://workshops.startyourlab.com/SLIDES-NAME",
-    image = "https://workshops.startyourlab.com/SLIDES-NAME/assets/images/twitter-card.png",
-    image_alt = "",
+    title = "Best practices for modern social science",
+    url = "https://workshops.startyourlab.com/coman-lab-meeting-slides",
+    image = "https://workshops.startyourlab.com/coman-lab-meeting-slides/assets/images/og-image-large.png",
+    image_alt = "Start Your Lab Open Graph Image",
     og_type = "website",
     og_author = "Start Your Lab",
     twitter_card_type = "summary_large_image",
@@ -88,11 +86,11 @@ meta() %>%
 class: title-slide
 
 <div align="center" style="margin-bottom: 2em;">
-  <img src="assets/images/logo.png" alt="Logo" height="60">
+  <img src="assets/images/logo.svg" alt="Logo" height="60">
 </div>
 
 <div align="center" class="header">
-  <h1 class="title">Research practices for<br/>modern social science</h1>
+  <h1 class="title">Best practices for<br/>modern social science</h1>
 </div>
 
 <div class="footer">
@@ -234,7 +232,7 @@ _How often do you store and spend time searching for file versions?_
 ```{r, echo=FALSE, fig.retina=2, out.width='80%', fig.width=8, fig.height=6, fig.align='center'}
 data <- data.frame(
   group = c(1, 2, 3, 4, 5),
-  value = c(0, 3, 1, 2, 3)
+  value = c(0, 3, 2, 2, 3)
 ) 
 
 ggplot(data, aes(x=group, y=value)) +
@@ -262,7 +260,7 @@ _How organized do you feel your project files are?_
 ```{r, echo=FALSE, fig.retina=2, out.width='80%', fig.width=8, fig.height=6, fig.align='center'}
 data <- data.frame(
   group = c(1, 2, 3, 4, 5),
-  value = c(0, 2, 4, 3, 0)
+  value = c(0, 2, 4, 4, 0)
 ) 
 
 ggplot(data, aes(x=group, y=value)) +
@@ -290,7 +288,7 @@ _Are you able to share analysis files with collaborators with one or two clicks 
 ```{r, echo=FALSE, fig.retina=2, out.width='60%', fig.align='center'}
 data <- data.frame(
   group = c("Yes", "No"),
-  value = c(4, 5)
+  value = c(5, 5)
 ) 
 
 data <- data %>% 
@@ -341,7 +339,7 @@ class: left
 ---
 class: center, middle
 
-# .primary[**We can do better by using _best practices_**].
+# .primary[**We can do better by using _best practices_**]
 
 ---
 class: center, middle, inverse
@@ -569,12 +567,14 @@ class: left
 
 ## Active team
 
-- Peter Sokol-Hessner, University of Denver
+- Dr. Peter Sokol-Hessner, Assistant Professor, University of Denver
 
 ## Industry advisors
 
-- Austin Chustz, Fellow
-- Ayush Sood, Facebook
+- Austin Chustz, Full-Stack Software Engineer, [Fellow](https://www.meetfellow.com/)
+- Ayush Sood, Engineering Manager, [Facebook for Developers](https://developers.facebook.com/)
+- Aaron Rios, Data Scientist, [Even](http://even.com/)
+- Ted Kornish, Head of Engineering, [TruthSet](https://www.truthset.io/)
 
 ---
 class: left
