@@ -417,7 +417,7 @@ class: left
 
 --
 
-## .primary[Best practices are consistent with **your scientific values**]
+## .primary[Best practices are consistent with **our scientific values**]
 
 --
 
@@ -469,17 +469,19 @@ class: left
 
 # Start **communicating** with Slack
 
-- As of 2019, Slack had .primary[**10+ million daily active users**], and 87% of users state that Slack improves their entire work process
-
 --
-
-## Why use Slack?
 
 - Can be asynchronous, can be synchronous
 - Designed for teams with multiple people coordinating unevenly across multiple projects in shifting ways over time
 - Can be 1:1 private, shared within a small group, or shared with everyone, all within the same platform
 - Stores your communication and makes it easy to find later
 - Connects with nearly every other modern tool for teams
+
+--
+
+## **Who else uses Slack?**
+
+### As of 2019, Slack had .primary[**10+ million daily active users**], and 87% of users state that Slack improves their entire work process
 
 ---
 class: left
@@ -490,15 +492,17 @@ class: left
 
 # Start **scheduling** with Google Calendar
 
-- As of 2018, at least .primary[**500 million people**] use Google Calendar
-
 --
-
-## Why use Google Calendar?
 
 - Designed for teams with multiple projects and various meeting needs
 - Both public and private calendar events to schedule weekly lab meetings and one-on-one meetings
 - It is more accessible for external collaborators than Outlook
+
+--
+
+## **Who else uses Google Calendar?**
+
+### As of 2018, at least .primary[**500 million people**] use Google Calendar
 
 ---
 class: left
@@ -508,12 +512,7 @@ class: left
 </div>
 
 # Start **developing** with GitHub
-
-- As of 2021, GitHub had .primary[**69+ million accounts**] from across the whole world and 200+ million repositories
-
 --
-
-## Why use GitHub?
 
 - Provides a shared interface for all digital materials in the cloud
 - Relates ideas and conversation directly to code
@@ -522,10 +521,16 @@ class: left
 - Resolves conflicts between different peoples’ materials
 - Facilitates discussion and planning about those digital materials
 
+--
+
+## **Who else uses GitHub?**
+
+### As of 2021, GitHub had .primary[**69+ million accounts**] from across the whole world and 200+ million repositories
+
 ---
 class: center
 
-# Tools help us accomplish best practices
+# Tools help teams accomplish best practices
 
 <div style="display: flex; flex-direction: column; justify-content: space-evenly; height: 9em; margin-top: 2em; margin-bottom: 2em; padding: 1em; background-color: #E8EFF4; border: 0.1em solid #5D8EB1; border-radius: 0.5em;">
 
