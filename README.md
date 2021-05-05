@@ -21,7 +21,10 @@
 The Start Your Lab Workshops project is part of an open-source initiative to teach academic research
 labs how to leverage modern tools and support them with industry best practices.
 
-For a hosted example workshop, see: the slides for the Coman Lab [here](./coman-lab-meeting-slides.html).
+For a hosted example workshop, see:
+
+- The slides for the Coman Lab meeting [here](./coman-lab-meeting-slides.html)
+- The slides for the Goldenberg-Jordan Lab meeting [here](./goldenberg-jordan-lab-meeting-slides.html)
 
 ### Built With
 
