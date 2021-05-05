@@ -543,7 +543,7 @@ class: center
 </div>
 
 ---
-class: center, middle, inverse
+class: center, middle, inverse-black
 
 # Conceptual flow
 
@@ -619,7 +619,7 @@ class: left
   <img src="assets/github-flows/slide-8-concept.svg" alt="Start a draft of another new idea" >
 </div>
 ---
-class: center, middle, inverse
+class: center, middle, inverse-black
 
 # Meal-prep flow
 
@@ -696,6 +696,177 @@ class: left
 </div>
 
 ---
+class: center, middle, inverse-black
+
+# Online survey flow
+
+---
+class: left
+
+# Here is a blank survey with a small title
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-1-study.svg" alt="Here is a blank survey with a small title" >
+</div>
+
+---
+class: left
+
+# Resize the title to increase readability
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-2-study.svg" alt="Resize the title to increase readability" >
+</div>
+
+---
+class: left
+
+# Draft the first set of questions separately
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-3-study.svg" alt="Draft the first set of questions separately" >
+</div>
+
+---
+class: left
+
+# Add two questions to the survey draft
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-4-study.svg" alt="Add two questions to the survey draft" >
+</div>
+
+---
+class: left
+
+# Add a third question to the survey draft
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-5-study.svg" alt="Add a third question to the survey draft" >
+</div>
+
+---
+class: left
+
+# Replace the third question with a new version
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-6-study.svg" alt="Replace the third question with a new version" >
+</div>
+
+---
+class: left
+
+# Combine your questions with the title
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-7-study.svg" alt="Combine your questions with the title" >
+</div>
+
+---
+class: left
+
+# Start drafting another section of the survey
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-8-study.svg" alt="Start drafting another section of the survey" >
+</div>
+
+---
+class: center, middle, inverse-black
+
+# Online survey flow with Git terms
+
+---
+class: left
+
+# The first survey version on the **main branch**
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-1-study.svg" alt="Here is a blank survey with a small title" >
+</div>
+
+---
+class: left
+
+# **Add**, **commit**, and **push** very minor changes
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-2-study.svg" alt="Resize the title to increase readability" >
+</div>
+
+---
+class: left
+
+# **Checkout** a draft branch to make major changes
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-3-study.svg" alt="Draft the first set of questions separately" >
+</div>
+
+---
+class: left
+
+# **Add**, **commit**, and **push** changes to draft branch
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-4-study.svg" alt="Add two questions to the survey draft" >
+</div>
+
+---
+class: left
+
+# **Add**, **commit**, and **push** changes to draft branch
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-5-study.svg" alt="Add a third question to the survey draft" >
+</div>
+
+---
+class: left
+
+# **Add**, **commit**, and **push** changes to draft branch
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-6-study.svg" alt="Replace the third question with a new version" >
+</div>
+
+---
+class: left
+
+# **Merge** your draft branch into your main branch
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-7-study.svg" alt="Combine your questions with the title" >
+</div>
+
+---
+class: left
+
+# **Checkout** a new branch to make more changes
+
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/github-flows/slide-8-study.svg" alt="Start drafting another section of the survey" >
+</div>
+
+---
+class: center
+
+<div style="text-align: center;">
+  `r icon_style(syl_images$github_logo, height = "3em")` 
+</div>
+
+# Again, how does GitHub work?
+
+--
+
+<div align="center" style="padding: 1em; margin-top: 2em; border: 0.1em solid #FFF07C; border-radius: 0.5em; background-color: #FFF9D1;">
+  <h2>GitHub uses <i>Git</i> to help teams <b>develop</b> their ideas little by little, and documents <i>everything</i> thoughtfully.</h2>
+  <br/>
+  <h2><b>Flow:</b> Checkout > Add > Commit > Push > Merge</h2>
+</div>
+
+---
 class: center
 
 # Tools help teams accomplish best practices
@@ -727,11 +898,13 @@ class: center, middle, inverse
 # How do we leverage these tools as <br/> a lab? a department? a field?
 
 ---
-class: center, middle
+class: center
 
-<div align="center">
+<div align="center" style="margin-bottom: 4em; margin-top: 2em;">
   <img src="assets/images/logo.svg" alt="Logo" height="120">
 </div>
+
+## Learn how to setup and work with software tools that are designed to help teams collaborate efficiently and effectively on complex projects.
 
 # [www.startyourlab.com](https://www.startyourlab.com/)
 

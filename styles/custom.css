@@ -73,3 +73,13 @@
   font-size: 0.7em;
   line-height: 1.1em;
 }
+
+.inverse-black {
+  background-color: #1E1E24;
+  color: #E8E8E9;
+  text-shadow: 0 0 20px #343439;
+}
+
+.inverse-black h1, .inverse-black h2, .inverse-black h3 {
+  color: #F4F4F4;
+}
