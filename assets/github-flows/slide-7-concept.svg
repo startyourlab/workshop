@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="900px" viewBox="0 0 1600 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>slide-7-concept</title>
+    <g id="slide-7-concept" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(120.000000, 330.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="6">
+            <g id="Rectangle">
+                <rect x="3" y="3" width="114" height="114" rx="24"></rect>
+            </g>
+        </g>
+        <g id="Group" transform="translate(360.000000, 330.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="6">
+            <g id="Rectangle">
+                <rect x="3" y="3" width="114" height="114" rx="24"></rect>
+            </g>
+        </g>
+        <g id="Group" transform="translate(360.000000, 570.000000)" fill="#DF8768" stroke="#1E1E24" stroke-width="6">
+            <g id="Rectangle">
+                <rect x="3" y="3" width="114" height="114" rx="24"></rect>
+            </g>
+        </g>
+        <g id="Group" transform="translate(601.000000, 569.000000)" fill="#DF8768" stroke="#1E1E24" stroke-width="6">
+            <g id="Rectangle">
+                <rect x="3" y="3" width="114" height="114" rx="24"></rect>
+            </g>
+        </g>
+        <g id="Group" transform="translate(481.000000, 629.000000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="6">
+            <g id="Line">
+                <line x1="0" y1="0.5" x2="120" y2="0.5"></line>
+            </g>
+        </g>
+        <g id="Group" transform="translate(842.000000, 569.000000)" fill="#DF8768" stroke="#1E1E24" stroke-width="6">
+            <g id="Rectangle">
+                <rect x="3" y="3" width="114" height="114" rx="24"></rect>
+            </g>
+        </g>
+        <g id="Group" transform="translate(722.000000, 629.000000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="6">
+            <g id="Line">
+                <line x1="0" y1="0.5" x2="120" y2="0.5"></line>
+            </g>
+        </g>
+        <g id="Group" transform="translate(1083.000000, 569.000000)" fill="#DF8768" stroke="#1E1E24" stroke-width="6">
+            <g id="Rectangle">
+                <rect x="3" y="3" width="114" height="114" rx="24"></rect>
+            </g>
+        </g>
+        <g id="Group" transform="translate(963.000000, 629.000000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="6">
+            <g id="Line">
+                <line x1="0" y1="0.5" x2="120" y2="0.5"></line>
+            </g>
+        </g>
+        <g id="Group" transform="translate(239.500000, 389.000000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="6">
+            <g id="Line">
+                <line x1="0" y1="0.5" x2="120" y2="0.5"></line>
+            </g>
+        </g>
+        <g id="Group" transform="translate(419.000000, 450.500000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="6">
+            <g id="Line">
+                <line x1="0.5" y1="0" x2="0.5" y2="120"></line>
+            </g>
+        </g>
+        <g id="Group" transform="translate(1315.000000, 332.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="6">
+            <g id="Rectangle">
+                <rect x="3" y="3" width="114" height="114" rx="24"></rect>
+            </g>
+        </g>
+        <g id="Group" transform="translate(1259.349242, 418.857864)" stroke="#1E1E24" stroke-linecap="square" stroke-width="6">
+            <g id="diagonal-track" transform="translate(1.000000, 93.500000) rotate(-315.000000) translate(-1.000000, -93.500000) ">
+                <line x1="-63.3327068" y1="27.7763158" x2="65.3327068" y2="159.223684" id="Line" transform="translate(1.000000, 93.500000) rotate(-315.000000) translate(-1.000000, -93.500000) "></line>
+            </g>
+        </g>
+        <g id="Group" transform="translate(481.500000, 390.000000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="6">
+            <g id="horizontal-track" transform="translate(417.000000, 0.500000) scale(1, -1) translate(-417.000000, -0.500000) ">
+                <line x1="0" y1="0.5" x2="834" y2="0.5" id="Line"></line>
+            </g>
+        </g>
+        <g id="Group" transform="translate(128.500000, 815.000000)" fill="#383843">
+            <path id="Line-2" d="M207,9.5 L231,21.5 L207,33.5 L207,23.5 L89,23.5 L89,19.5 L207,19.5 L207,9.5 Z" fill-rule="nonzero"></path>
+            <text id="TIME" font-family="Nunito-Regular, Nunito" font-size="32" font-weight="normal" letter-spacing="0.914285714">
+                <tspan x="0" y="32">TIME</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
