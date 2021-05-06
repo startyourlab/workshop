@@ -369,6 +369,39 @@ class: left
 ---
 class: left
 
+# Examples of best practices
+
+1. Decouple data from programs
+
+--
+
+2. Write programs for people, not for computers
+
+--
+
+3. Track changes using version control
+
+--
+
+4. Coordinate updates using an issue tracking tool
+
+--
+
+5. Don't repeat yourself (or others)
+
+--
+
+6. Automate repeat tasks
+
+--
+
+## There are _many more_ best practices. 
+
+_See: https://www.startyourlab.com/community/resources_
+
+---
+class: left
+
 # Who agrees upon these "best" practices?
 
 --
@@ -868,9 +901,9 @@ class: center
 </div>
 
 ---
-class: center
+class: center, middle
 
-# Tools help teams accomplish best practices
+# **Tools help teams accomplish best practices**
 
 <div style="display: flex; flex-direction: column; justify-content: space-evenly; height: 9em; margin-top: 2em; margin-bottom: 2em; padding: 1em; background-color: #E8EFF4; border: 0.1em solid #5D8EB1; border-radius: 0.5em;">
 
@@ -899,20 +932,75 @@ class: center, middle, inverse
 # How do we leverage modern tools as <br/> a lab? a department? a field?
 
 ---
-class: center
+class: center, middle
 
-<div align="center" style="margin-bottom: 4em; margin-top: 2em;">
+<div align="center" style="margin-bottom: 2em;">
   <img src="assets/images/logo.svg" alt="Logo" height="120">
 </div>
 
-## Learn how to setup and work with software tools that are designed to help teams collaborate efficiently and effectively on complex projects.
+---
+class: center
 
-# [www.startyourlab.com](https://www.startyourlab.com/)
+<div align="center" style="margin-bottom: 2em;">
+  <img src="assets/images/logo.svg" alt="Logo" height="60">
+</div>
+
+--
+
+### Open-source platform that teaches academic research labs<br/>how to get started with modern tools for modern science
+
+--
+
+### Guides, tutorials, and templates focused on making<br/>team science more efficient, effective, and enjoyable
+
+--
+
+<div align="center" style="padding: 1em; padding-bottom: 2em; margin-top: 2em; border: 0.1em solid #5D8EB1; border-radius: 0.5em; background-color: #E8EFF4;">
+  <h2>Let's take a look:</h2>
+  <a href="https://www.startyourlab.com/" target="_blank">www.startyourlab.com</a>
+</div>
 
 ---
 class: left
 
-# Acknowledgments
+# Next steps
+
+1. Talk about best practices with your team
+
+--
+
+2. Plan! What are you going to do together?
+
+--
+
+3. Ask for support when you need or want it
+
+--
+
+4. Use [Start Your Lab](https://www.startyourlab.com/) to facilitate your lab's tool adoption
+  - In development! Have questions, feedback, suggestions? [Let us know](mailto:feedback@startyourlab.com)!
+  
+---
+class: left, inverse
+
+# Final Messages
+
+--
+
+1. **This is about people.** Technology is the tool, but this is about learning and using conventions to help people work together more easily and effectively.
+
+--
+
+2. **It’s never too late to learn to use these tools, at any level of usage**. You can get plenty out of this even if you don’t do all the things.
+
+--
+
+3. **Yes, _we can_ do this.**
+
+---
+class: left
+
+# Team acknowledgments
 
 ## Active team
 
@@ -926,10 +1014,15 @@ class: left
 - Ted Kornish, Head of Engineering, [TruthSet](https://www.truthset.io/)
 
 ---
+class: center, middle, inverse
+
+# **Questions?**
+
+---
 class: left
 
 # Thank you!
 
-<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
-Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+- Icons made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/)
+- Slides created via the R package [`xaringan`](https://github.com/yihui/xaringan)
+- Site hosted on [GitHub Pages](https://pages.github.com/)
