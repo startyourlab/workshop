@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1600px" height="900px" viewBox="0 0 1600 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1600px" height="682px" viewBox="0 0 1600 682" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>slide-2-food</title>
     <g id="slide-2-food" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(883.000000, 441.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="3">
+        <g id="Group" transform="translate(853.000000, 231.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="3">
             <g id="idea-share">
                 <rect id="Rectangle" x="1.5" y="1.5" width="57" height="57" rx="12"></rect>
             </g>
         </g>
-        <g id="Group" transform="translate(1003.000000, 441.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="3">
+        <g id="Group" transform="translate(973.000000, 231.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="3">
             <g id="idea-share">
                 <rect id="Rectangle" x="1.5" y="1.5" width="57" height="57" rx="12"></rect>
             </g>
         </g>
-        <g id="Group" transform="translate(943.000000, 471.000000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="3">
+        <g id="Group" transform="translate(913.000000, 261.000000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="3">
             <g id="horizontal-track">
                 <line x1="0" y1="0.5" x2="60" y2="0.5" id="Line"></line>
             </g>
         </g>
-        <g id="time-reference-frame" transform="translate(883.000000, 641.000000)" fill="#383843">
+        <g id="time-reference-frame" transform="translate(853.000000, 431.000000)" fill="#383843">
             <path id="Line-2" d="M102,4 L116,11 L102,18 L102,12 L44.6969697,12 L44.6969697,10 L102,10 L102,4 Z" fill-rule="nonzero"></path>
             <text id="TIME" font-family="Nunito-Regular, Nunito" font-size="16" font-weight="normal" letter-spacing="0.45714286">
                 <tspan x="0" y="16.255814">TIME</tspan>
             </text>
         </g>
-        <rect id="Rectangle" stroke="#4C82A9" stroke-width="2" fill="#FAFCFF" x="116" y="252" width="600" height="600" rx="6"></rect>
-        <g id="restaurant" transform="translate(160.000000, 387.000000)" fill-rule="nonzero">
+        <rect id="Rectangle" stroke="#4C82A9" stroke-width="2" fill="#FAFCFF" x="86" y="42" width="600" height="600" rx="6"></rect>
+        <g id="restaurant" transform="translate(130.000000, 177.000000)" fill-rule="nonzero">
             <path d="M508,329.969 L4.04,329.969 C1.831,329.969 0.04,328.178 0.04,325.969 L0.04,285.03 C0.04,282.821 1.831,281.03 4.04,281.03 L508,281.03 C510.209,281.03 512,282.821 512,285.03 L512,325.968 C512,328.178 510.209,329.969 508,329.969 L508,329.969 Z" id="Path" fill="#707DD3"></path>
             <path d="M507.93,281.03 L486.304,281.03 L486.304,300.202 C486.304,302.45 484.482,304.272 482.234,304.272 L0.04,304.272 L0.04,325.898 C0.04,328.146 1.862,329.968 4.11,329.968 L507.93,329.968 C510.178,329.968 512,328.146 512,325.898 L512,285.1 C512,282.853 510.178,281.03 507.93,281.03 Z" id="Path" fill="#5766CB"></path>
             <polygon id="Path" fill="#BED8FB" points="76.823 175.155 92.086 175.155 92.086 281.03 76.823 281.03"></polygon>
@@ -39,6 +39,6 @@
                 <path d="M110.194,82.104 C104.184,95.558 95.507,107.829 84.503,118.091 L66.746,134.652 L75.056,142.402 C80.349,147.339 88.56,147.339 93.853,142.402 L116.871,120.935 C126.928,111.556 134.051,99.644 137.626,86.628 C138.251,84.352 136.535,82.104 134.175,82.104 L110.194,82.104 Z" id="Path" fill="#DD636E"></path>
             </g>
         </g>
-        <line x1="799.5" y1="352" x2="799.5" y2="752" id="Line" stroke="#A7A8AA" stroke-linecap="square"></line>
+        <line x1="769.5" y1="142" x2="769.5" y2="542" id="Line" stroke="#A7A8AA" stroke-linecap="square"></line>
     </g>
 </svg>

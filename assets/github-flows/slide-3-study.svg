@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1600px" height="900px" viewBox="0 0 1600 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1600px" height="682px" viewBox="0 0 1600 682" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>slide-3-study</title>
     <defs>
         <filter x="-1.6%" y="-1.6%" width="103.1%" height="103.3%" filterUnits="objectBoundingBox" id="filter-1">
@@ -11,7 +11,7 @@
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
-        <rect id="path-2" x="306" y="352" width="220" height="230" rx="3"></rect>
+        <rect id="path-2" x="268" y="142" width="220" height="230" rx="3"></rect>
         <filter x="-3.2%" y="-3.0%" width="107.3%" height="107.0%" filterUnits="objectBoundingBox" id="filter-4">
             <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
@@ -20,40 +20,40 @@
         </filter>
     </defs>
     <g id="slide-3-study" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(883.000000, 441.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="3">
+        <g id="Group" transform="translate(845.000000, 231.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="3">
             <g id="idea-share">
                 <rect id="Rectangle" x="1.5" y="1.5" width="57" height="57" rx="12"></rect>
             </g>
         </g>
-        <g id="Group" transform="translate(1003.000000, 441.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="3">
+        <g id="Group" transform="translate(965.000000, 231.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="3">
             <g id="idea-share">
                 <rect id="Rectangle" x="1.5" y="1.5" width="57" height="57" rx="12"></rect>
             </g>
         </g>
-        <g id="Group" transform="translate(1003.000000, 561.000000)" fill="#DF8768" stroke="#1E1E24" stroke-width="3">
+        <g id="Group" transform="translate(965.000000, 351.000000)" fill="#DF8768" stroke="#1E1E24" stroke-width="3">
             <g id="idea-draft">
                 <rect id="Rectangle" x="1.5" y="1.5" width="57" height="57" rx="12"></rect>
             </g>
         </g>
-        <g id="Group" transform="translate(943.000000, 471.000000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="3">
+        <g id="Group" transform="translate(905.000000, 261.000000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="3">
             <g id="horizontal-track">
                 <line x1="0" y1="0.5" x2="60" y2="0.5" id="Line"></line>
             </g>
         </g>
-        <g id="time-reference-frame" transform="translate(883.000000, 641.000000)" fill="#383843">
+        <g id="time-reference-frame" transform="translate(845.000000, 431.000000)" fill="#383843">
             <path id="Line-2" d="M102,4 L116,11 L102,18 L102,12 L44.6969697,12 L44.6969697,10 L102,10 L102,4 Z" fill-rule="nonzero"></path>
             <text id="TIME" font-family="Nunito-Regular, Nunito" font-size="16" font-weight="normal" letter-spacing="0.45714286">
                 <tspan x="0" y="16.255814">TIME</tspan>
             </text>
         </g>
-        <g id="Group" transform="translate(1033.000000, 501.000000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="3">
+        <g id="Group" transform="translate(995.000000, 291.000000)" stroke="#1E1E24" stroke-linecap="square" stroke-width="3">
             <g id="vertical-track">
                 <line x1="0.5" y1="0" x2="0.5" y2="60" id="Line"></line>
             </g>
         </g>
-        <line x1="799.5" y1="352" x2="799.5" y2="752" id="Line" stroke="#A7A8AA" stroke-linecap="square"></line>
-        <rect id="Rectangle" stroke="#DF8768" stroke-width="2" fill="#FEFCFB" x="116" y="252" width="600" height="600" rx="6"></rect>
-        <g id="computer" filter="url(#filter-1)" transform="translate(160.000000, 309.881000)" fill-rule="nonzero">
+        <line x1="761.5" y1="142" x2="761.5" y2="542" id="Line" stroke="#A7A8AA" stroke-linecap="square"></line>
+        <rect id="Rectangle" stroke="#DF8768" stroke-width="2" fill="#FEFCFB" x="78" y="42" width="600" height="600" rx="6"></rect>
+        <g id="computer" filter="url(#filter-1)" transform="translate(122.000000, 99.881000)" fill-rule="nonzero">
             <path d="M306.412,393.843 L288.101,373.239 L217.342,373.239 L205.587,393.843 C212.108,426.281 193.618,460.497 170.638,476.512 L341.36,476.512 C318.381,460.497 299.891,426.281 306.412,393.843 L306.412,393.843 Z" id="Path" fill="#365E7D"></path>
             <path d="M205.588,393.843 C206.763,399.69 207.115,405.593 206.786,411.438 L305.216,411.438 C304.887,405.593 305.238,399.69 306.414,393.843 L289.687,373.239 L217.344,373.239 L205.588,393.843 Z" id="Path" fill="#2B4D66"></path>
             <path d="M382.49,484.238 L129.51,484.238 C125.243,484.238 121.784,480.779 121.784,476.512 C121.784,472.245 125.243,468.786 129.51,468.786 L382.49,468.786 C386.758,468.786 390.216,472.245 390.216,476.512 C390.216,480.779 386.757,484.238 382.49,484.238 Z" id="Path" fill="#2B4D66"></path>
@@ -74,12 +74,12 @@
             <use fill="#F6F7F8" fill-rule="evenodd" xlink:href="#path-2"></use>
         </g>
         <g id="survey" mask="url(#mask-3)" fill="#383843" fill-rule="nonzero">
-            <g transform="translate(366.000000, 381.000000)" id="Path">
+            <g transform="translate(328.000000, 171.000000)" id="Path">
                 <path d="M87.1083765,20.3045647 L10.1720235,20.3045647 C4.78352941,20.3045647 0.415694118,15.9367294 0.415694118,10.5482353 C0.415694118,5.15974118 4.78352941,0.791905882 10.1720235,0.791905882 L87.1083765,0.791905882 C92.4968706,0.791905882 96.8647059,5.15974118 96.8647059,10.5482353 C96.8647059,15.9361882 92.4968706,20.3045647 87.1083765,20.3045647 Z"></path>
             </g>
         </g>
         <g id="header-bar" mask="url(#mask-3)">
-            <g transform="translate(306.000000, 352.000000)">
+            <g transform="translate(268.000000, 142.000000)">
                 <path d="M3,0 L217,0 C218.656854,-3.04359188e-16 220,1.34314575 220,3 L220,16 L220,16 L0,16 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 Z" id="Rectangle" fill="#7B8E9C"></path>
                 <circle id="Oval" fill="#DF8768" cx="10" cy="8" r="4"></circle>
                 <circle id="Oval" fill="#FFF07C" cx="22" cy="8" r="4"></circle>

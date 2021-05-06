@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1601px" height="900px" viewBox="0 0 1601 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1600px" height="682px" viewBox="0 0 1600 682" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>slide-1-food</title>
-    <g id="slide-1-food" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1.000000, 0.000000)">
-        <g id="Group" transform="translate(883.000000, 441.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="3">
+    <g id="slide-1-food" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(853.000000, 231.000000)" fill="#4C82A9" stroke="#1E1E24" stroke-width="3">
             <g id="idea-share">
                 <rect id="Rectangle" x="1.5" y="1.5" width="57" height="57" rx="12"></rect>
             </g>
         </g>
-        <g id="time-reference-frame" transform="translate(883.000000, 641.000000)" fill="#383843">
+        <g id="time-reference-frame" transform="translate(853.000000, 431.000000)" fill="#383843">
             <path id="Line-2" d="M102,4 L116,11 L102,18 L102,12 L44.6969697,12 L44.6969697,10 L102,10 L102,4 Z" fill-rule="nonzero"></path>
             <text id="TIME" font-family="Nunito-Regular, Nunito" font-size="16" font-weight="normal" letter-spacing="0.45714286">
                 <tspan x="0" y="16.255814">TIME</tspan>
             </text>
         </g>
-        <rect id="Rectangle" stroke="#4C82A9" stroke-width="2" fill="#FAFCFF" x="116" y="252" width="600" height="600" rx="6"></rect>
-        <g id="restaurant" transform="translate(160.000000, 387.000000)" fill-rule="nonzero">
+        <rect id="Rectangle" stroke="#4C82A9" stroke-width="2" fill="#FAFCFF" x="86" y="42" width="600" height="600" rx="6"></rect>
+        <g id="restaurant" transform="translate(130.000000, 177.000000)" fill-rule="nonzero">
             <path d="M508,329.969 L4.04,329.969 C1.831,329.969 0.04,328.178 0.04,325.969 L0.04,285.03 C0.04,282.821 1.831,281.03 4.04,281.03 L508,281.03 C510.209,281.03 512,282.821 512,285.03 L512,325.968 C512,328.178 510.209,329.969 508,329.969 L508,329.969 Z" id="Path" fill="#707DD3"></path>
             <path d="M507.93,281.03 L486.304,281.03 L486.304,300.202 C486.304,302.45 484.482,304.272 482.234,304.272 L0.04,304.272 L0.04,325.898 C0.04,328.146 1.862,329.968 4.11,329.968 L507.93,329.968 C510.178,329.968 512,328.146 512,325.898 L512,285.1 C512,282.853 510.178,281.03 507.93,281.03 Z" id="Path" fill="#5766CB"></path>
             <polygon id="Path" fill="#BED8FB" points="76.823 175.155 92.086 175.155 92.086 281.03 76.823 281.03"></polygon>
@@ -27,6 +27,6 @@
                 <path d="M119.876,0.031 L119.876,36.73 C119.876,67.582 107.065,97.049 84.502,118.091 L47.736,152.381 L82.372,184.684 C83.545,185.778 85.364,185.778 86.536,184.684 L133.495,140.889 C156.057,119.847 168.869,90.38 168.869,59.528 L168.869,7.178 C168.869,3.231 165.669,0.031 161.723,0.031 L119.876,0.031 L119.876,0.031 Z" id="Path" fill="#BED8FB"></path>
             </g>
         </g>
-        <line x1="799.5" y1="352" x2="799.5" y2="752" id="Line" stroke="#A7A8AA" stroke-linecap="square"></line>
+        <line x1="769.5" y1="142" x2="769.5" y2="542" id="Line" stroke="#A7A8AA" stroke-linecap="square"></line>
     </g>
 </svg>

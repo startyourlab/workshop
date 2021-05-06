@@ -75,11 +75,10 @@
 }
 
 .inverse-black {
-  background-color: #1E1E24;
-  color: #E8E8E9;
-  text-shadow: 0 0 20px #343439;
+  background-color: #4B4B50;
+  color: #F6F7F8;
 }
 
 .inverse-black h1, .inverse-black h2, .inverse-black h3 {
-  color: #F4F4F4;
+  color: #F6F7F8;
 }

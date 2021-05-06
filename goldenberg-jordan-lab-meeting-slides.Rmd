@@ -586,7 +586,7 @@ class: left
 
 # Here is your main idea
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-1-concept.svg" alt="Here is your main idea" >
 </div>
 
@@ -595,7 +595,7 @@ class: left
 
 # Make a quick update to your main idea
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-2-concept.svg" alt="Make a quick update to your main idea" >
 </div>
 
@@ -604,7 +604,7 @@ class: left
 
 # Draft a new idea separate from your main idea
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-3-concept.svg" alt="Draft a new idea separate from your main idea" >
 </div>
 
@@ -613,7 +613,7 @@ class: left
 
 # Iterate on the draft of your new idea
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-4-concept.svg" alt="Iterate on the draft of your new idea" >
 </div>
 
@@ -622,7 +622,7 @@ class: left
 
 # Continue developing the new idea
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-5-concept.svg" alt="Continue developing the new idea" >
 </div>
 
@@ -631,7 +631,7 @@ class: left
 
 # Make one more update to the new idea
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-6-concept.svg" alt="Make one more update to the new idea" >
 </div>
 
@@ -640,7 +640,7 @@ class: left
 
 # Update your main idea with the new idea
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-7-concept.svg" alt="Update your main idea with the new idea" >
 </div>
 
@@ -649,7 +649,7 @@ class: left
 
 # Start a draft of another new idea
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-8-concept.svg" alt="Start a draft of another new idea" >
 </div>
 ---
@@ -662,7 +662,7 @@ class: left
 
 # Here is your wine glass
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-1-food.svg" alt="Here is your wine glass" >
 </div>
 
@@ -671,7 +671,7 @@ class: left
 
 # Add wine to your wine glass
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-2-food.svg" alt="Add wine to your wine glass" >
 </div>
 
@@ -680,7 +680,7 @@ class: left
 
 # Leave wine aside to prepare your salad
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-3-food.svg" alt="Leave wine aside to prepare your salad" >
 </div>
 
@@ -689,7 +689,7 @@ class: left
 
 # Add some greens to start your salad
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-4-food.svg" alt="Add some greens to start your salad" >
 </div>
 
@@ -698,7 +698,7 @@ class: left
 
 # Add onions and grapes to your salad
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-5-food.svg" alt="Add onions and grapes to your salad" >
 </div>
 
@@ -707,7 +707,7 @@ class: left
 
 # Replace the grapes with tomatoes
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-6-food.svg" alt="Replace the grapes with tomatoes" >
 </div>
 
@@ -716,7 +716,7 @@ class: left
 
 # Bring together your salad and wine
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-7-food.svg" alt="Bring together your salad and wine" >
 </div>
 
@@ -725,7 +725,7 @@ class: left
 
 # Start prepping another part of your meal
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-8-food.svg" alt="Start prepping another part of your meal" >
 </div>
 
@@ -739,7 +739,7 @@ class: left
 
 # Here is a blank survey with a small title
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-1-study.svg" alt="Here is a blank survey with a small title" >
 </div>
 
@@ -748,7 +748,7 @@ class: left
 
 # Resize the title to increase readability
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-2-study.svg" alt="Resize the title to increase readability" >
 </div>
 
@@ -757,7 +757,7 @@ class: left
 
 # Draft the first set of questions separately
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-3-study.svg" alt="Draft the first set of questions separately" >
 </div>
 
@@ -766,7 +766,7 @@ class: left
 
 # Add two questions to the survey draft
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-4-study.svg" alt="Add two questions to the survey draft" >
 </div>
 
@@ -775,7 +775,7 @@ class: left
 
 # Add a third question to the survey draft
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-5-study.svg" alt="Add a third question to the survey draft" >
 </div>
 
@@ -784,7 +784,7 @@ class: left
 
 # Replace the third question with a new version
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-6-study.svg" alt="Replace the third question with a new version" >
 </div>
 
@@ -793,7 +793,7 @@ class: left
 
 # Combine your questions with the title
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-7-study.svg" alt="Combine your questions with the title" >
 </div>
 
@@ -802,7 +802,7 @@ class: left
 
 # Start drafting another section of the survey
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-8-study.svg" alt="Start drafting another section of the survey" >
 </div>
 
@@ -816,7 +816,7 @@ class: left
 
 # The first survey version on the **main branch**
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-1-study.svg" alt="Here is a blank survey with a small title" >
 </div>
 
@@ -825,7 +825,7 @@ class: left
 
 # **Add**, **commit**, and **push** very minor changes
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-2-study.svg" alt="Resize the title to increase readability" >
 </div>
 
@@ -834,7 +834,7 @@ class: left
 
 # **Checkout** a draft branch to make major changes
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-3-study.svg" alt="Draft the first set of questions separately" >
 </div>
 
@@ -843,7 +843,7 @@ class: left
 
 # **Add**, **commit**, and **push** changes to draft branch
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-4-study.svg" alt="Add two questions to the survey draft" >
 </div>
 
@@ -852,7 +852,7 @@ class: left
 
 # **Add**, **commit**, and **push** changes to draft branch
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-5-study.svg" alt="Add a third question to the survey draft" >
 </div>
 
@@ -861,7 +861,7 @@ class: left
 
 # **Add**, **commit**, and **push** changes to draft branch
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-6-study.svg" alt="Replace the third question with a new version" >
 </div>
 
@@ -870,7 +870,7 @@ class: left
 
 # **Merge** your draft branch into your main branch
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-7-study.svg" alt="Combine your questions with the title" >
 </div>
 
@@ -879,7 +879,7 @@ class: left
 
 # **Checkout** a new branch to make more changes
 
-<div align="center" style="margin-bottom: 2em;">
+<div align="center" style="margin: 2em 0;">
   <img src="assets/github-flows/slide-8-study.svg" alt="Start drafting another section of the survey" >
 </div>
 
@@ -945,13 +945,15 @@ class: center
   <img src="assets/images/logo.svg" alt="Logo" height="60">
 </div>
 
---
-
 ### Open-source platform that teaches academic research labs<br/>how to get started with modern tools for modern science
 
 --
 
 ### Guides, tutorials, and templates focused on making<br/>team science more efficient, effective, and enjoyable
+
+--
+
+### Better science is possible if we learn to standardize<br/>tools and practices across teams and projects
 
 --
 
@@ -969,7 +971,7 @@ class: left
 
 --
 
-2. Plan! What are you going to do together?
+2. Plan! Which tool(s) will you try first as a team?
 
 --
 
@@ -978,7 +980,7 @@ class: left
 --
 
 4. Use [Start Your Lab](https://www.startyourlab.com/) to facilitate your lab's tool adoption
-  - In development! Have questions, feedback, suggestions? [Let us know](mailto:feedback@startyourlab.com)!
+  - In development! Have questions, feedback, suggestions?<br/>[Let us know](mailto:feedback@startyourlab.com)!
   
 ---
 class: left, inverse
